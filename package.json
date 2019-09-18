@@ -1,0 +1,27 @@
+{
+  "name": "donut",
+  "version": "1.0.0",
+  "description": "Зробити Match 3 гру використовуючи рушій Phaser 2 для мобільних пристроїв.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dist": "webpack-dev-server -w",
+    "build": "webpack --progress -p",
+    "watch": "webpack --progress --watch",
+    "server": "webpack-dev-server --open --mode development"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "babel-loader": "^8.0.6",
+    "webpack": "^4.39.3",
+    "webpack-cli": "^3.3.8",
+    "webpack-dev-server": "^3.8.0"
+  },
+  "dependencies": {
+    "@babel/core": "^7.6.0",
+    "@babel/preset-env": "^7.6.0",
+    "babel-preset-env": "^1.7.0",
+    "phaser": "^3.19.0"
+  }
+}
